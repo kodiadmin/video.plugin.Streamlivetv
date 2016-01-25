@@ -41,7 +41,7 @@ if REMOTE_DBG:
         sys.exit(1)  
 
 
-addon = xbmcaddon.Addon('plugin.video.Streamlivetv')
+addon = xbmcaddon.Addon('plugin.video.streamlivetv')
 addon_version = addon.getAddonInfo('version')
 profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
 home = xbmc.translatePath(addon.getAddonInfo('path').decode('utf-8'))
@@ -60,7 +60,7 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"title": "Streanlivetv ", "url": "http://pastebin.com/raw/ujXcZLXw", "fanart": "http://horsesstock.com/wp-content/uploads/2015/01/photos_of_wild_horses00011.jpg", "genre": "IPTV TELEVISION", "date": "10.17.2015", "credits": "Streamlivetv", "thumbnail": "http://bardy.tv/site/blog/wp-content/uploads/2014/01/MainLogoLarge.png"}]
+SOURCES = [{"title": "streanlivetv ", "url": "http://pastebin.com/raw/ujXcZLXw", "fanart": "http://horsesstock.com/wp-content/uploads/2015/01/photos_of_wild_horses00011.jpg", "genre": "IPTV TELEVISION", "date": "10.17.2015", "credits": "Streamlivetv", "thumbnail": "http://bardy.tv/site/blog/wp-content/uploads/2014/01/MainLogoLarge.png"}]
 
 # https://googledrive.com/host/0BzqtJBUy3FRTc1Vrem5fbmNKVlk/fanart.jpg
 # http://bardy.tv/site/blog/wp-content/uploads/2014/01/MainLogoLarge.png
