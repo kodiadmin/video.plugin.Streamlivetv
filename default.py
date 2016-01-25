@@ -41,7 +41,7 @@ if REMOTE_DBG:
         sys.exit(1)  
 
 
-addon = xbmcaddon.Addon('plugin.video.streamlivetv')
+addon = xbmcaddon.Addon('plugin.video.Streamlivetv')
 addon_version = addon.getAddonInfo('version')
 profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
 home = xbmc.translatePath(addon.getAddonInfo('path').decode('utf-8'))
@@ -60,7 +60,7 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"title": "streanlivetv ", "url": "http://pastebin.com/raw/ujXcZLXw", "fanart": "http://horsesstock.com/wp-content/uploads/2015/01/photos_of_wild_horses00011.jpg", "genre": "IPTV TELEVISION", "date": "10.17.2015", "credits": "Streamlivetv", "thumbnail": "http://bardy.tv/site/blog/wp-content/uploads/2014/01/MainLogoLarge.png"}]
+SOURCES = [{"title": "Streamlivetv ", "url": "http://pastebin.com/raw/ujXcZLXw", "fanart": "http://horsesstock.com/wp-content/uploads/2015/01/photos_of_wild_horses00011.jpg", "genre": "IPTV TELEVISION", "date": "10.17.2015", "credits": "Streamlivetv", "thumbnail": "http://bardy.tv/site/blog/wp-content/uploads/2014/01/MainLogoLarge.png"}]
 
 # https://googledrive.com/host/0BzqtJBUy3FRTc1Vrem5fbmNKVlk/fanart.jpg
 # http://bardy.tv/site/blog/wp-content/uploads/2014/01/MainLogoLarge.png
@@ -102,7 +102,7 @@ def getSources():
             if FAV == "[]":
                 os.remove(favorites)
             else:
-                addDir('[COLOR cyan][B]- FAVORITES CHANNEL Sttreamlivetv [/COLOR][/B][/B]','url',4,os.path.join(home, 'resources', 'favorite.png'),FANART,'','','','')
+                addDir('[COLOR cyan][B]- FAVORITES CHANNEL Streamlivetv [/COLOR][/B][/B]','url',4,os.path.join(home, 'resources', 'favorite.png'),FANART,'','','','')
                 addDir('','',100,'',FANART,'','','','')
 
         sources = SOURCES
