@@ -1,1 +1,1 @@
-# video.plugin.streamlivetv
+# video.plugin.Streamlivetv
