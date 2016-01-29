@@ -60,10 +60,10 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"title": "Streamlivetv ", "url": "http://pastebin.com/raw/ujXcZLXw", "fanart": "http://horsesstock.com/wp-content/uploads/2015/01/photos_of_wild_horses00011.jpg", "genre": "IPTV TELEVISION", "date": "10.17.2015", "credits": "Streamlivetv", "thumbnail": "http://bardy.tv/site/blog/wp-content/uploads/2014/01/MainLogoLarge.png"}]
+SOURCES = [{"title": "Streamlivetv ", "url": "http://pastebin.com/raw/ujXcZLXw", "fanart": "http://horsesstock.com/wp-content/uploads/2015/01/photos_of_wild_horses00011.jpg", "genre": "IPTV TELEVISION", "date": "10.17.2015", "credits": "Streamlivetv", "thumbnail": "http://s3.amazonaws.com/fotor.cdn/share.url/651af28489b94957aca8c4a328200bcb.jpeg"}]
 
 # https://googledrive.com/host/0BzqtJBUy3FRTc1Vrem5fbmNKVlk/fanart.jpg
-# http://bardy.tv/site/blog/wp-content/uploads/2014/01/MainLogoLarge.png
+# http://s3.amazonaws.com/fotor.cdn/share.url/651af28489b94957aca8c4a328200bcb.jpeg
 
 """
 if os.path.exists(source_file)==True:
